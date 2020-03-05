@@ -1,0 +1,29 @@
+{
+  "name": "istac-gds-recursos-estructurales",
+  "version": "1.0.0",
+  "description": "Google Data Studio Connector",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:edosoft/antoniofumero/dat-istac-gds/istac-gds-recursos-estructurales.git"
+  },
+  "author": "Carlos Espino Timón",
+  "license": "ISC",
+  "dependencies": {
+    "@google/clasp": "2.3.0",
+    "@types/google-apps-script": "0.0.62",
+    "babel-core": "6.26.3",
+    "babel-jest": "24.9.0",
+    "babel-preset-env": "1.7.0",
+    "jest": "24.9.0"
+  }
+}
