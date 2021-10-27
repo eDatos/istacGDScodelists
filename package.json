@@ -19,11 +19,11 @@
   "author": "Carlos Espino Timón",
   "license": "ISC",
   "dependencies": {
-    "@google/clasp": "2.3.0",
+    "@google/clasp": "^2.4.1",
     "@types/google-apps-script": "0.0.62",
     "babel-core": "6.26.3",
-    "babel-jest": "24.9.0",
+    "babel-jest": "^27.3.1",
     "babel-preset-env": "1.7.0",
-    "jest": "24.9.0"
+    "jest": "^27.3.1"
   }
 }
