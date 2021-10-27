@@ -40,7 +40,7 @@ test("getLanguages - get the languages returned from the server response", () =>
             "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_AGE(2.0)._T",
             "selfLink": {
                 "kind": "structuralResources#code",
-                "href": "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_AGE/2.0/codes/_T"
+                "href": "https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ESTAT/CL_AGE/2.0/codes/_T"
             },
             "name": {
                 "text": [
@@ -61,7 +61,7 @@ test("getLanguages - get the languages returned from the server response", () =>
             "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_AGE(2.0).LFD",
             "selfLink": {
                 "kind": "structuralResources#code",
-                "href": "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_AGE/2.0/codes/LFD"
+                "href": "https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ESTAT/CL_AGE/2.0/codes/LFD"
             },
             "name": {
                 "text": [

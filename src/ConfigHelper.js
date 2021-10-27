@@ -1,5 +1,5 @@
 function ConfigHelper(services) {
-  const METADATA_ENDPOINT = "https://www3.gobiernodecanarias.org/istac/api/cmetadata/v1.0/properties.json";
+  const METADATA_ENDPOINT = "https://datos.canarias.es/api/estadisticas/api/cmetadata/v1.0/properties.json";
   const ENDPOINT_KEY = "metamac.srm.rest.external";
   const END_OF_ENDPOINT = "/v1.0/variablefamilies.json?limit=1000&orderBy=ID%20ASC%20";
   const END_OF_VARIABLES_ENDPOINT = "/v1.0/variablefamilies/FAMILY_OF_VARIABLE/variables.json?limit=1000&orderBy=ID%20ASC"
@@ -279,7 +279,7 @@ function ConfigHelper(services) {
           .newTextInput()
           .setId("inputUrl")
           .setName("URL")
-          .setHelpText("Esta URL debe ser una petición de la API. Por ejemplo: https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ISTAC/CL_CNAE_2009_GRUPOS_VENTA/01.000")
+          .setHelpText("Esta URL debe ser una petición de la API. Por ejemplo: https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ISTAC/CL_CNAE_2009_GRUPOS_VENTA/01.000")
           .setPlaceholder("Introducir url de la petición");
   
         config
