@@ -61,14 +61,14 @@ function SchemaHelper(services) {
       error = "URL field must not be empty";
     } else if (
       configParams.inputUrl.indexOf(
-        "https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ISTAC/"
+        "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/"
       ) !== 0
     ) {
       error = "URL field entered is not correct for this connector";
     }
     if (error) {
       let message = "Por favor, asegúrese de que el campo URL no está vacío y que la URL tiene el siguiente formato: " +
-              "https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ISTAC/CL_CNAE_2009_GRUPOS_VENTA/01.000";
+              "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CNAE_2009_GRUPOS_VENTA/01.000";
       utils.throwConectorError(error, message);
     }
   }

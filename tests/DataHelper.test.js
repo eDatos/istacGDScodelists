@@ -44,7 +44,7 @@ test("_processData: without languages nor decode", () => {
     var configParams = {
     clasificatorType: "variableSelector",
     codelist:
-      "https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1"
+      "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1"
     };
 
   var expectedResult = [{ "values": ["_T", "", "Ambos sexos"] }, { "values": ["_U", "", "Desconocido"] }, { "values": ["_X", "", "Sin especificar"] }, { "values": ["_Z", "", "No aplicable"] }, { "values": ["F", "", "Mujeres"] }, { "values": ["M", "", "Hombres"] }];
@@ -62,7 +62,7 @@ test("_processData: without decode", () => {
   var configParams = {
     clasificatorType: "variableSelector",
     codelist:
-      "https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1",
+      "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1",
     allLanguages: "true"
   };
   var expectedResult = [{ "values": ["_T", "", "Total", "Ambos sexos"] }, { "values": ["_U", "", "Unknown", "Desconocido"] }, { "values": ["_X", "", "Unspecified", "Sin especificar"] }, { "values": ["_Z", "", "Not applicable", "No aplicable"] }, { "values": ["F", "", "Female", "Mujeres"] }, { "values": ["M", "", "Male", "Hombres"] }];
@@ -82,11 +82,11 @@ test("_processData: with everything", () => {
   var configParams = {
     clasificatorType: "variableSelector",
     codelist:
-      "https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1",
+      "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1",
     allLanguages: "true",
     decode: "true",
     decodeCode:
-      "https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000"
+      "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000"
   };
   var expectedResult = [{ "values": ["0", "", "Not known", "Desconocido", "_U", "", "Unknown", "Desconocido"] }, { "values": ["9", "", "Not applicable", "No aplicable", "_Z", "", "Not applicable", "No aplicable"] }, { "values": ["2", "", "Female", "Mujer", "F", "", "Female", "Mujeres"] }, { "values": ["1", "", "Male", "Hombre", "M", "", "Male", "Hombres"] }];
 
@@ -109,10 +109,10 @@ test("_processData: without allLanguages", () => {
   var configParams = {
     clasificatorType: "variableSelector",
     codelist:
-      "https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1",
+      "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1",
     decode: "true",
     decodeCode:
-      "https://datos.canarias.es/api/estadisticas/api/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000"
+      "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000"
   };
   var expectedResult = [{ "values": ["0", "", "Desconocido", "_U", "", "Desconocido"] }, { "values": ["9", "", "No aplicable", "_Z", "", "No aplicable"] }, { "values": ["2", "", "Mujer", "F", "", "Mujeres"] }, { "values": ["1", "", "Hombre", "M", "", "Hombres"] }];
 
