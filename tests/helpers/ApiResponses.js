@@ -11,7 +11,7 @@ const familyVariablesResponse = {
       selfLink: {
         kind: "structuralResources#variableFamily",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variablefamilies/VRF_ADMINISTRACIONES_PUBLICAS"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variablefamilies/VRF_ADMINISTRACIONES_PUBLICAS"
       },
       name: {
         text: [
@@ -30,7 +30,7 @@ const familyVariablesResponse = {
       selfLink: {
         kind: "structuralResources#variableFamily",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variablefamilies/VRF_CARACTERISTICAS_OBS"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variablefamilies/VRF_CARACTERISTICAS_OBS"
       },
       name: {
         text: [
@@ -50,7 +50,7 @@ const familyVariablesResponse = {
       selfLink: {
         kind: "structuralResources#variableFamily",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variablefamilies/VRF_TRANSVERSALES"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variablefamilies/VRF_TRANSVERSALES"
       },
       name: {
         text: [
@@ -68,7 +68,7 @@ const familyVariablesResponse = {
   limit: 1000,
   offset: 0,
   selfLink:
-    "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variablefamilies?orderBy=ID ASC&limit=1000&offset=0"
+    "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variablefamilies?orderBy=ID ASC&limit=1000&offset=0"
 };
 
 
@@ -81,7 +81,7 @@ const variablesResponse = {
       selfLink: {
         kind: "structuralResources#variable",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_EDAD"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_EDAD"
       },
       name: {
         text: [
@@ -100,7 +100,7 @@ const variablesResponse = {
       selfLink: {
         kind: "structuralResources#variable",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_ESTADO_CIVIL"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_ESTADO_CIVIL"
       },
       name: {
         text: [
@@ -119,7 +119,7 @@ const variablesResponse = {
       selfLink: {
         kind: "structuralResources#variable",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO"
       },
       name: {
         text: [
@@ -137,7 +137,7 @@ const variablesResponse = {
   limit: 1000,
   offset: 0,
   selfLink:
-    "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variablefamilies/VRF_DEMOGRAFICAS/variables?orderBy=ID ASC&limit=1000&offset=0"
+    "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variablefamilies/VRF_DEMOGRAFICAS/variables?orderBy=ID ASC&limit=1000&offset=0"
 };
 
 const codelistResponse = {
@@ -148,7 +148,7 @@ const codelistResponse = {
       selfLink: {
         kind: "structuralResources#codelist",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_AGE/2.0"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_AGE/2.0"
       },
       name: {
         text: [
@@ -170,7 +170,7 @@ const codelistResponse = {
       selfLink: {
         kind: "structuralResources#codelist",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ISTAC/CL_AGE/01.000"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_AGE/01.000"
       },
       name: {
         text: [
@@ -188,7 +188,7 @@ const codelistResponse = {
       selfLink: {
         kind: "structuralResources#codelist",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/SDMX/CL_AGE/1.0"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/SDMX/CL_AGE/1.0"
       },
       name: {
         text: [
@@ -210,7 +210,7 @@ const codelistResponse = {
   limit: 1000,
   offset: 0,
   selfLink:
-    'https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists?query=VARIABLE_URN EQ "urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable&VR_EDAD"&orderBy=ID ASC&limit=1000&offset=0'
+    'https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists?query=VARIABLE_URN EQ "urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable&VR_EDAD"&orderBy=ID ASC&limit=1000&offset=0'
 };
 
 const specificCodelist = {
@@ -223,7 +223,7 @@ const specificCodelist = {
         selfLink: {
           kind: "structuralResources#variableElement",
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO/variableelements/T_"
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO/variableelements/T_"
         },
         name: {
           text: [
@@ -240,7 +240,7 @@ const specificCodelist = {
       selfLink: {
         kind: "structuralResources#code",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/_T"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/_T"
       },
       name: {
         text: [
@@ -264,7 +264,7 @@ const specificCodelist = {
         selfLink: {
           kind: "structuralResources#variableElement",
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO/variableelements/U_"
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO/variableelements/U_"
         },
         name: {
           text: [
@@ -281,7 +281,7 @@ const specificCodelist = {
       selfLink: {
         kind: "structuralResources#code",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/_U"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/_U"
       },
       name: {
         text: [
@@ -305,7 +305,7 @@ const specificCodelist = {
         selfLink: {
           kind: "structuralResources#variableElement",
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO/variableelements/X_"
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO/variableelements/X_"
         },
         name: {
           text: [
@@ -322,7 +322,7 @@ const specificCodelist = {
       selfLink: {
         kind: "structuralResources#code",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/_X"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/_X"
       },
       name: {
         text: [
@@ -346,7 +346,7 @@ const specificCodelist = {
         selfLink: {
           kind: "structuralResources#variableElement",
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO/variableelements/Z_"
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO/variableelements/Z_"
         },
         name: {
           text: [
@@ -363,7 +363,7 @@ const specificCodelist = {
       selfLink: {
         kind: "structuralResources#code",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/_Z"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/_Z"
       },
       name: {
         text: [
@@ -387,7 +387,7 @@ const specificCodelist = {
         selfLink: {
           kind: "structuralResources#variableElement",
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO/variableelements/FEMALE"
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO/variableelements/FEMALE"
         },
         name: {
           text: [
@@ -404,7 +404,7 @@ const specificCodelist = {
       selfLink: {
         kind: "structuralResources#code",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/F"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/F"
       },
       name: {
         text: [
@@ -428,7 +428,7 @@ const specificCodelist = {
         selfLink: {
           kind: "structuralResources#variableElement",
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO/variableelements/MALE"
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO/variableelements/MALE"
         },
         name: {
           text: [
@@ -445,7 +445,7 @@ const specificCodelist = {
       selfLink: {
         kind: "structuralResources#code",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/M"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes/M"
       },
       name: {
         text: [
@@ -465,7 +465,7 @@ const specificCodelist = {
   kind: "structuralResources#codes",
   total: 6,
   selfLink:
-    "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes"
+    "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes"
 };
 
 const specificCodelist2 = {
@@ -478,7 +478,7 @@ const specificCodelist2 = {
         selfLink: {
           kind: "structuralResources#variableElement",
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO/variableelements/U_"
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO/variableelements/U_"
         },
         name: {
           text: [
@@ -496,7 +496,7 @@ const specificCodelist2 = {
       selfLink: {
         kind: "structuralResources#code",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes/0"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes/0"
       },
       name: {
         text: [
@@ -520,7 +520,7 @@ const specificCodelist2 = {
         selfLink: {
           kind: "structuralResources#variableElement",
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO/variableelements/MALE"
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO/variableelements/MALE"
         },
         name: {
           text: [
@@ -538,7 +538,7 @@ const specificCodelist2 = {
       selfLink: {
         kind: "structuralResources#code",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes/1"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes/1"
       },
       name: {
         text: [
@@ -562,7 +562,7 @@ const specificCodelist2 = {
         selfLink: {
           kind: "structuralResources#variableElement",
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO/variableelements/FEMALE"
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO/variableelements/FEMALE"
         },
         name: {
           text: [
@@ -580,7 +580,7 @@ const specificCodelist2 = {
       selfLink: {
         kind: "structuralResources#code",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes/2"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes/2"
       },
       name: {
         text: [
@@ -604,7 +604,7 @@ const specificCodelist2 = {
         selfLink: {
           kind: "structuralResources#variableElement",
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO/variableelements/Z_"
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO/variableelements/Z_"
         },
         name: {
           text: [
@@ -622,7 +622,7 @@ const specificCodelist2 = {
       selfLink: {
         kind: "structuralResources#code",
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes/9"
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes/9"
       },
       name: {
         text: [
@@ -642,7 +642,7 @@ const specificCodelist2 = {
   kind: "structuralResources#codes",
   total: 4,
   selfLink:
-    "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes"
+    "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes"
 };
 
 const metadataResponse = {
@@ -650,19 +650,19 @@ const metadataResponse = {
     {
       key: "metamac.srm.rest.external",
       value:
-        "https://www3.gobiernodecanarias.org/istac/api/structural-resources",
+        "https://datos.canarias.es/api/estadisticas/structural-resources",
       kind: "commonMetadata#property"
     }
   ]
 };
 
 const responses = {
-  "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variablefamilies.json?limit=1000&orderBy=ID%20ASC%20": familyVariablesResponse,
-  "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variablefamilies/VRF_DEMOGRAFICAS/variables.json?limit=1000&orderBy=ID%20ASC": variablesResponse,
-  "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists.json?limit=1000&orderBy=ID%20ASC&query=VARIABLE_URN%20EQ%20%22urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable=VR_EDAD%22": codelistResponse,
-  "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes.json?fields=+variableElement": specificCodelist,
-  "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes.json?fields=+variableElement": specificCodelist2,
-  "https://www3.gobiernodecanarias.org/istac/api/cmetadata/v1.0/properties.json": metadataResponse
+  "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variablefamilies.json?limit=1000&orderBy=ID%20ASC%20": familyVariablesResponse,
+  "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variablefamilies/VRF_DEMOGRAFICAS/variables.json?limit=1000&orderBy=ID%20ASC": variablesResponse,
+  "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists.json?limit=1000&orderBy=ID%20ASC&query=VARIABLE_URN%20EQ%20%22urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable=VR_EDAD%22": codelistResponse,
+  "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_SEX/1.1/codes.json?fields=+variableElement": specificCodelist,
+  "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_SEX_ISO_5218/01.000/codes.json?fields=+variableElement": specificCodelist2,
+  "https://datos.canarias.es/api/estadisticas/cmetadata/v1.0/properties.json": metadataResponse
 };
 
 

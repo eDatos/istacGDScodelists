@@ -14,7 +14,7 @@ UtilitiesMock.prototype.base64EncodeWebSafe = function (valueToEncode) {
 };
 
 UtilitiesMock.prototype.computeDigest = function(algoritm, stringToGetHash, encoding) {
-    return btoa(stringToGetHash)
+    return Buffer.from(stringToGetHash,"ascii").toString("base64");
 }
 
 /* global exports */

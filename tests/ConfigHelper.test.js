@@ -35,7 +35,7 @@ test("getFamilyOfVariables", () => {
         },
         selfLink: {
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variablefamilies/VRF_ADMINISTRACIONES_PUBLICAS",
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variablefamilies/VRF_ADMINISTRACIONES_PUBLICAS",
           kind: "structuralResources#variableFamily"
         },
         urn:
@@ -49,7 +49,7 @@ test("getFamilyOfVariables", () => {
         },
         selfLink: {
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variablefamilies/VRF_TRANSVERSALES",
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variablefamilies/VRF_TRANSVERSALES",
           kind: "structuralResources#variableFamily"
         },
         urn:
@@ -69,7 +69,7 @@ test("getFamilyOfVariables", () => {
         },
         selfLink: {
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variablefamilies/VRF_CARACTERISTICAS_OBS",
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variablefamilies/VRF_CARACTERISTICAS_OBS",
           kind: "structuralResources#variableFamily"
         },
         urn:
@@ -83,7 +83,7 @@ test("getFamilyOfVariables", () => {
 
 
 test("getVariables", () => {
-    var expectedVariables = [{"id": "VR_EDAD", "kind": "structuralResources#variable", "name": {"text": [{"lang": "es", "value": "Variable Edad"}]}, "selfLink": {"href": "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_EDAD", "kind": "structuralResources#variable"}, "urn": "urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable=VR_EDAD"}, {"id": "VR_ESTADO_CIVIL", "kind": "structuralResources#variable", "name": {"text": [{"lang": "es", "value": "Variable Estado civil"}]}, "selfLink": {"href": "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_ESTADO_CIVIL", "kind": "structuralResources#variable"}, "urn": "urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable=VR_ESTADO_CIVIL"}, {"id": "VR_SEXO", "kind": "structuralResources#variable", "name": {"text": [{"lang": "es", "value": "Variable Sexo"}]}, "selfLink": {"href": "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/variables/VR_SEXO", "kind": "structuralResources#variable"}, "urn": "urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable=VR_SEXO"}];
+    var expectedVariables = [{"id": "VR_EDAD", "kind": "structuralResources#variable", "name": {"text": [{"lang": "es", "value": "Variable Edad"}]}, "selfLink": {"href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_EDAD", "kind": "structuralResources#variable"}, "urn": "urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable=VR_EDAD"}, {"id": "VR_ESTADO_CIVIL", "kind": "structuralResources#variable", "name": {"text": [{"lang": "es", "value": "Variable Estado civil"}]}, "selfLink": {"href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_ESTADO_CIVIL", "kind": "structuralResources#variable"}, "urn": "urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable=VR_ESTADO_CIVIL"}, {"id": "VR_SEXO", "kind": "structuralResources#variable", "name": {"text": [{"lang": "es", "value": "Variable Sexo"}]}, "selfLink": {"href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_SEXO", "kind": "structuralResources#variable"}, "urn": "urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable=VR_SEXO"}];
     expect(configHelper.getVariables("VRF_DEMOGRAFICAS")).toEqual(expectedVariables);
 
 });
@@ -103,7 +103,7 @@ test("getCodelist", () => {
         },
         selfLink: {
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/SDMX/CL_AGE/1.0",
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/SDMX/CL_AGE/1.0",
           kind: "structuralResources#codelist"
         },
         urn: "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_AGE(1.0)"
@@ -119,7 +119,7 @@ test("getCodelist", () => {
         },
         selfLink: {
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_AGE/2.0",
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_AGE/2.0",
           kind: "structuralResources#codelist"
         },
         urn: "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:CL_AGE(2.0)"
@@ -132,7 +132,7 @@ test("getCodelist", () => {
         },
         selfLink: {
           href:
-            "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ISTAC/CL_AGE/01.000",
+            "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_AGE/01.000",
           kind: "structuralResources#codelist"
         },
         urn:
@@ -147,7 +147,7 @@ test("getDecodeCodelist", () => {
   var urn =
     "urn:siemac:org.siemac.metamac.infomodel.structuralresources.Variable=VR_EDAD";
     var codelist =
-      "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ESTAT/CL_AGE/2.0";
+      "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ESTAT/CL_AGE/2.0";
   var expectedCodelist = [
     {
       id: "CL_AGE",
@@ -160,7 +160,7 @@ test("getDecodeCodelist", () => {
       },
       selfLink: {
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/SDMX/CL_AGE/1.0",
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/SDMX/CL_AGE/1.0",
         kind: "structuralResources#codelist"
       },
       urn: "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_AGE(1.0)"
@@ -173,7 +173,7 @@ test("getDecodeCodelist", () => {
       },
       selfLink: {
         href:
-          "https://www3.gobiernodecanarias.org/istac/api/structural-resources/v1.0/codelists/ISTAC/CL_AGE/01.000",
+          "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_AGE/01.000",
         kind: "structuralResources#codelist"
       },
       urn: "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ISTAC:CL_AGE(01.000)"
