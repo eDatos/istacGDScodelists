@@ -23,6 +23,7 @@ Now you can push code with your changes to Google by running:
 ### How to try the connector
 
 Once you have develop something and you want to try it you have to push it and the connector will be in the [Latest Version(Head)](https://datastudio.google.com/datasources/create?connectorId=AKfycbwH5EJuXyGG3_9Hyqjw5xDFLQR29WRGFOElo9qJDw "Latest Version").
+
 When the development version is ready for release, the production deployment will be in the [Production deployment](https://datastudio.google.com/datasources/create?connectorId=AKfycbzIw6QGYQas83YwTsyn2Q98gyYFHqBWSK1yUDI8OminzsiUYl42Dp1oO0pIwDYSDDo "Prodction deployment")
 
 You could also get this url by editing the [project](https://script.google.com/home) in the G Suite Developer Hub. Then click in `Publish --> Publish from manifest`. You can check the [documentation](https://developers.google.com/datastudio/connector/use).
